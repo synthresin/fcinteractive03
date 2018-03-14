@@ -1,0 +1,14 @@
+/* 기본값, 컨텐츠 높이에 따라 자동 조절 */
+.user-list-item {
+  height: auto;
+}
+
+/* 절대값 */
+.user-list-item {
+  height: 300px;
+}
+
+/* 부모 컨텐츠 영역 높이에 대해 상대 값 */
+.user-list-item {
+  height: 75%;
+}

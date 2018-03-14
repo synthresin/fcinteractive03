@@ -1,0 +1,7 @@
+.example {
+  /* 4면에 동일하게 */
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}

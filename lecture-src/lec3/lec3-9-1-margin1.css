@@ -1,0 +1,13 @@
+.example {
+  /* 4면에 동일하게 */
+  margin: 1em;
+
+  /* 상하 | 좌우 */
+  margin: 5% 10%;
+
+  /* 상 | 좌우 | 하 */
+  margin: 1em 2em 2em;
+
+  /* 상 / 우 / 하 / 좌 */
+  margin: 5px 1em 0 1em;
+}

@@ -1,0 +1,14 @@
+/* px 값으로 설정 */
+h1 {
+  word-spacing: 1px;
+}
+
+/* em 값으로 설정 */
+p {
+  word-spacing: .3em;
+}
+
+/* 퍼센트 값으로 설정 */
+li {
+  word-spacing: 90%;
+}

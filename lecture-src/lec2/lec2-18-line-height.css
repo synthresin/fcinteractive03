@@ -1,0 +1,19 @@
+/* 각 서체가 가지고 있는 기본 값, 이 값은 서체 마다 다르다! */
+h1 {
+  line-height: normal;
+}
+
+/* 퍼센트, font-size의 상대 값 */
+p {
+  line-height: 160%;
+}
+
+/* px 고정 값 */
+ul {
+  line-height: 21px;
+}
+
+/* em 값 */
+ol {
+  line-height: 3em;
+}

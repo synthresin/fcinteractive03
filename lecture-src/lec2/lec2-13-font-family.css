@@ -1,0 +1,9 @@
+/*
+전체 html에 서체를 적용한다.
+사용자의 기기에 선 순위의 서체가 없으면
+후순위의 서체를 적용 시도한다.
+sans-serif 는 시스템의 기본 산세리프 서체.
+*/
+body {
+  font-family: 'Apple SD Gothic Neo', 'Barun Gothic', 'Malgun Gothic', sans-serif;
+}

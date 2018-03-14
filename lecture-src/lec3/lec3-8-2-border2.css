@@ -1,0 +1,12 @@
+.example {
+  /* 수치 따로주기 */
+  border-width: 2px;
+  border-style: solid;
+  border-color: #ff3f6f;
+
+  /* 한 면만 수치 따로주기 */
+  border-top-width: 4px;
+  border-top-style: double;
+  border-top-color: blue;
+
+}

@@ -1,0 +1,51 @@
+h1 {
+  margin-left: 20px;
+  margin-bottom: 120px;
+  width: 600px;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -.6px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+h2 {
+  margin-top: 42px;
+  margin-bottom: 19px;
+  margin-left: 20px;
+  width: 600px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+p {
+  margin-left: 20px;
+  width: 600px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+ul {
+  margin-left: 5px;
+  width: 600px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+ol {
+  margin-left: 5px;
+  margin-bottom: 28px;
+  width: 600px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+li {
+  width: 600px;
+  font-weight: 500;
+  line-height: 26px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}

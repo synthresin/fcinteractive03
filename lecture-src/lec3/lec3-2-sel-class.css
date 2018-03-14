@@ -1,0 +1,11 @@
+/* class="user-list-item" 인
+모든 엘리먼트 */
+.user-list-item {
+  color: blue;
+}
+
+/* class="user-list-item"인
+모든 <li> 엘리먼트 */
+li.user-list-item {
+  color: red;
+}

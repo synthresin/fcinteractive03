@@ -1,0 +1,5 @@
+/* class="user-list" 안에 존재하는
+모든 class="user-list-item" 엘리먼트 */
+.user-list .user-list-item {
+  color: blue;
+}

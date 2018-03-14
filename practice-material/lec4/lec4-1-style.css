@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: normal;
+}
+
+.app-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  padding: 14px 16px;
+  background-color: #009688;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+  color: white;
+  height: 56px;
+  box-sizing: border-box;;
+}
+
+.app-bar .title {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contents {
+  padding-top: 62px;
+  padding-bottom: 24px;
+}
+

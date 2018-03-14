@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="lec4-2-style.css">
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="app-bar">
+      <h1 class="title">New User</h1>
+    </div>
+    <div class="contents">
+      <form>
+        <div class="required-section">
+          <h2 class="section-header">Required</h2>
+          <label for="name">Name</label>
+          <input id="name" type="text" placeholder="eg) Trevor Hansen">
+          <label for="email">E-Mail</label>
+          <input id="email" type="email" placeholder="eg) synthresin@me.com">
+          <label for="password">Password</label>
+          <input id="password" type="password" placeholder="8 characters or longer">
+        </div>
+        <div class="optional-section">
+          <h2 class="section-header">Optional</h2>
+          <label for="bio">Bio</label>
+          <textarea id="bio" placeholder="below 120 characters" rows="1"></textarea>
+          <label>Gender</label>
+          <label>
+            <input type="radio" name="gender" value="0">Female
+          </label>
+          <label>
+            <input type="radio" name="gender" value="1">Male
+          </label>
+          <label for="country">Country</label>
+          <select>
+            <option>Choose A Country</option>
+            <optgroup label="Asia">
+              <option value="kr">Korea</option>
+              <option value="jp">Japan</option>
+            </optgroup>
+            <optgroup label="Europe">
+              <option value="fr">France</option>
+              <option value="de">Germany</option>
+            </optgroup>
+          </select>
+          <label for="zip">Zip Code</label>
+          <input id="zip" type="number" placeholder="eg) 45439">
+          <label>
+            <input type="checkbox"> Receive Promotion Email
+          </label>
+        </div>
+        <div class="submit-section">
+          <input class="submit-button" type="submit" value="SUBMIT">
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

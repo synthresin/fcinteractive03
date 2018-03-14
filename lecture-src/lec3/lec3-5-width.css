@@ -1,0 +1,14 @@
+/* 기본값, 부모의 컨텐츠 영역 전체를 차지 (마진 패딩 등이 없는 경우) */
+.user-list-item {
+  width: auto;
+}
+
+/* 절대값 */
+.user-list-item {
+  width: 300px;
+}
+
+/* 부모 컨텐츠 영역 너비에 대해 상대 값 */
+.user-list-item {
+  width: 75%;
+}

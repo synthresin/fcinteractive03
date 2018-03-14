@@ -1,0 +1,9 @@
+/* 픽셀 단위 */
+h1 {
+  font-size: 21px;
+}
+
+/* em 단위 */
+p {
+  font-size: 0.6em;
+}

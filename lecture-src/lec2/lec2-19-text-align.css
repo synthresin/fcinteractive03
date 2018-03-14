@@ -1,0 +1,20 @@
+/* 왼쪽 정렬, 기본값 */
+body {
+  text-align: left;
+}
+/* 오른쪽 정렬 */
+h1 {
+  text-align: right;
+}
+/* 가운데 정렬 */
+p {
+  text-align: center;
+}
+/* 마지막 줄을 제외한 양끝 정렬 */
+ul {
+  text-align: justify;
+}
+/* 마지막 줄을 포함한 양끝 정렬 */
+ol {
+  line-height: justify-all;
+}

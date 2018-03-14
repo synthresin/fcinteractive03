@@ -1,0 +1,6 @@
+.example {
+  background-position: 0% 0%
+  background-size: cover;
+  background-repeat: repeat
+  background-origin: padding-box
+}

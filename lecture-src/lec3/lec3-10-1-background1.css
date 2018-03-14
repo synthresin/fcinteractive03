@@ -1,0 +1,7 @@
+.example {
+  /* 배경색 */
+  background-color: red;
+
+  /* 이미지 */
+  background-image: url('image-file.png');
+}

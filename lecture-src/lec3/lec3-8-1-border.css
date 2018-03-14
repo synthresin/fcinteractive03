@@ -1,0 +1,10 @@
+.example {
+  /* 4면에 동일하게 */
+  border: 1px solid #ff3f6f;
+
+  /* 면마다 따로주기 */
+  border-top: 1px solid white;
+  border-right: 2px dotted rgba(128, 128, 128, .5);
+  border-bottom: 3px dashed #ff3f6f;
+  border-left: 4px double hsl(128, 100, 100);
+}

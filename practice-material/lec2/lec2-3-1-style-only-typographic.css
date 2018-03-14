@@ -1,0 +1,36 @@
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -.6px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+h2 {
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+p {
+  font-weight: 500;
+  line-height: 26px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+ul {
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+ol {
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+li {
+  font-weight: 500;
+  line-height: 26px;
+  font-family: 'Noto Serif CJK KR', serif;
+  color: rgba(0, 0, 0, 0.87)
+}

@@ -1,0 +1,7 @@
+.example {
+  /* 가로 정렬 : 좌우 마진을 auto 로 두기 */
+  margin-left: auto;
+  margin-right: auto;
+
+  /* 세로 정렬 : 정석적인 방법이 없음. */
+}

@@ -1,0 +1,12 @@
+p {
+  color : gray;
+  font-size: 14px;
+  font-family: 'Apple SD Gothic Neo';
+  font-weight: bold;
+  font-style: italic;
+  letter-spacing : -1px;
+  word-spacing: 2px;
+  line-height: 23px;
+  text-align: left;
+  text-decoration: underline;
+}

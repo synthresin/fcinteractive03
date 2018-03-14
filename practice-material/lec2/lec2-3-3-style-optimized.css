@@ -1,0 +1,39 @@
+body {
+  font-family: 'Noto Serif CJK KR', serif;
+  width: 600px;
+  color: rgba(0, 0, 0, 0.87)
+}
+
+h1 {
+  margin-left: 20px;
+  margin-bottom: 120px;
+  font-weight: 700;
+  font-size: 35px;
+  letter-spacing: -.6px;
+}
+
+h2 {
+  margin-top: 42px;
+  margin-bottom: 19px;
+  margin-left: 20px;
+}
+
+p {
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+ul {
+  margin-left: 5px;
+}
+
+ol {
+  margin-left: 5px;
+  margin-bottom: 28px;
+}
+
+li {
+  font-weight: 500;
+  line-height: 26px;
+}

@@ -1,0 +1,9 @@
+/* px 값으로 설정 */
+h1 {
+  letter-spacing: -1px;
+}
+
+/* em 값으로 설정 */
+p {
+  letter-spacing: -0.3em;
+}

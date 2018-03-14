@@ -1,0 +1,14 @@
+/* 기본값 */
+h1 {
+  font-style: normal;
+}
+
+/* 이탤릭 */
+p {
+  font-style: italic;
+}
+
+/* 오블릭 */
+li {
+  font-style: oblique;
+}
