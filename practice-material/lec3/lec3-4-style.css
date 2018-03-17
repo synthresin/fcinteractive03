@@ -1,93 +1,77 @@
 body {
-  margin: 0; padding: 0;
-  font-family: "Roboto", sans-serif;
   line-height: normal;
+  font-family: 'Roboto', sans-serif;
 }
 
 .app-bar {
-  padding: 14px 16px;
+  box-sizing: border-box;
+  height: 56px;
   background-color: #009688;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
-}
-
-.app-bar h1 {
-  margin: 0;
   color: white;
-  font-weight: 400;
   font-size: 20px;
-  line-height: 28px;
+  padding-left: 16px;
+  padding-top: 14px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 }
 
 .contents {
-  margin-top: 6px;
+  padding-top: 62px;
 }
 
-h2 {
-  margin: 0;
-  padding: 14px 16px 15px;
+.section-header {
+  box-sizing: border-box;
+  height: 48px;
   font-size: 14px;
-  font-weight: 400;
   color: #009789;
+  padding-left: 16px;
+  padding-top: 14px;
 }
 
-.file-section {
-  padding-bottom: 8px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+.file-section,
+.user-section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
-.file-list {
-  margin: 0;
-  padding: 0;
+.file-list,
+.user-list {
+  margin-bottom: 8px;
 }
 
 .file-list-item {
-  margin: 0;
-  padding: 16px 14px;
-  list-style-type: none;
+  padding: 14px 16px;
 }
 
-.file-list-item h3 {
-  margin: 0;
+.file-list-item h4 {
+  color: rgba(0, 0, 0, 0.87);
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.87);
-  font-weight: 400;
 }
 
-.file-list-item .file-list-item__subtitle {
+.file-list-item p {
+  color: rgba(0, 0, 0, 0.54);
   font-size: 14px;
   line-height: 20px;
-  color: rgba(0, 0, 0, 0.54);
-  font-weight: 400;
-}
-
-.user-section {
-  padding-bottom: 8px;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
-}
-
-.user-list {
-  margin: 0;
-  padding: 0;
 }
 
 .user-list-item {
-  padding: 16px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   font-size: 16px;
   line-height: 24px;
-  color: rgba(0, 0, 0, 0.87);
-  font-weight: 400;
 }
 
-.note-section {
+.note-section > p {
+  font-size: 14px;
+  line-height: 24px;
 
-}
-
-.note-section p {
+  margin: 16px;
   margin-top: 0;
-  padding: 0 16px;
 
-	font-size: 14px;
-	line-height: 24px;
-	color: rgba(0, 0, 0, 0.87);
+  color: rgba(0, 0, 0, 0.87);
 }
