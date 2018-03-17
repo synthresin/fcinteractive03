@@ -1,0 +1,6 @@
+.header {
+  position: static; /* 기본값(기본배열 방식) */
+  position: relative; /* 원래 배열에서 위치 이동 */
+  position: absolute; /* html 태그에 대하여, 절대 배열 */
+  position: fixed; /* 보이는 창에 대하여, 절대 배열 */
+}

@@ -1,0 +1,8 @@
+.container {
+  justify-content: center;     /* main 축 중앙 정렬 */
+  justify-content: flex-start;      /* main 축 시작 정렬 */
+  justify-content: flex-end;        /* main 축 끝 정렬 */
+
+  justify-content: space-between; /* 양끝 여백 없이 분포 */
+  justify-content: space-around; /* 분포 시킨 후, 양끝에 요소 간격의 절반을 줌 */
+}

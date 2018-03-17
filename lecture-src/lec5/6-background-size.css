@@ -1,0 +1,11 @@
+.user-list-item__thumbnail {
+  background-size: cover; /* 크랍시켜 영역 채우기 */
+  background-size: contain; /* 이미지가 전부 노출되는 한 최대로 채우기 */
+
+  /* 너비만 지정, 높이는 너비에 따라 자동 지정 */
+  background-size: 50%;
+
+  /* 너비, 높이 지정 */
+  background-size: 50% auto;
+  background-size: 3em 25%;
+}

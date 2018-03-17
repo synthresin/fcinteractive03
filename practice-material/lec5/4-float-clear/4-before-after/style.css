@@ -1,0 +1,17 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.row::before {
+  content: '나는 row 내부의 가장 앞에 붙는 가상 요소다'
+}
+
+.row::after {
+  content: '나는 row 내부의 가장 뒤에 붙는 가상 요소다'
+}
+<div class="footer">
+  <p>&copy;2016 your imagination. This isn't really copyright, this is a mockery of the very concept. Use as you wish.</p>
+</div>

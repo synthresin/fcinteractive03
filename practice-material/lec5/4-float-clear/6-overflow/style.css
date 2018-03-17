@@ -1,0 +1,30 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.first-column {
+  float: left;
+  width: 36%;
+}
+
+.second-column {
+  float: left;
+  width: 30%;
+  margin-left: 4%;
+}
+
+.third-column {
+  float: right;
+  width: 26%;
+}
+
+.row {
+  overflow: auto;
+}
+
+.footer {
+  margin-top: 70px;
+}

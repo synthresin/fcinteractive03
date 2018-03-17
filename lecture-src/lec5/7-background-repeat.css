@@ -1,0 +1,11 @@
+.user-list-item__thumbnail {
+  /* 가장 많이 쓰임 */
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+
+  /* 특수 값들 */
+  background-repeat: space;
+  background-repeat: round;
+}

@@ -1,0 +1,9 @@
+/* 해당 요소가 위쪽에 float 가 적용된 요소 옆으로 흐르지 않도록 밑으로 내려줌. */
+.footer {
+  clear: both;
+
+  /*
+  clear: left;
+  clear: right;
+  도 있지만 거의 안쓰임 */
+}

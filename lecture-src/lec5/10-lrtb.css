@@ -1,0 +1,11 @@
+/* position 이 무엇이냐에 따라 다르게 작동.
+relative 의 경우, 위치 이동 값.
+absolute, fixed 의 경우 위치 절대 값
+static 에서는 무동작 */
+
+.header {
+  left: 40px;
+  right: 50px;
+  top: 50px;
+  bottom: 40px;
+}

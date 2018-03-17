@@ -1,0 +1,8 @@
+.container {
+  flex-wrap: nowrap; /* 기본, 한줄로 전부 배열 */
+  /* 각 아이템의 flex 속성을 만족하도록 갯수 배열, flex 속성과 같이 사용
+  cross 정방향으로 늘어남 */
+  flex-wrap: wrap;
+  /* 위와 동일하나, cross 역방향으로 늘어남 */
+  flex-wrap: wrap-reverse;
+}

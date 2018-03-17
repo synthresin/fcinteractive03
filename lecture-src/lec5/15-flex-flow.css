@@ -1,0 +1,8 @@
+.container {
+  /*
+    flex-direction: row;
+    flex-wrap: wrap;
+    과 동일
+  */
+  flex-flow: row wrap;
+}

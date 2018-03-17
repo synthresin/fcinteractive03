@@ -1,0 +1,12 @@
+/* float는 width 값과 대부분 같이 사용함. */
+/* 왼쪽에 "떠있게" 함,  */
+.title {
+  float: left;
+  width: 480px; /* 너비 계산을 잘못하면 레이아웃이 깨짐. */
+}
+
+/* 오른쪽에 "떠있게" 함 */
+.paragraph {
+  float: right;
+  width: 50%;
+}

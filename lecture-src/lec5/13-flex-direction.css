@@ -1,0 +1,6 @@
+.container {
+  flex-direction: row; /* 기본. 왼쪽에서 오른쪽 배열 */
+  flex-direction: column; /* 위에서 아래. */
+  flex-direction: row-reverse; /* 오른쪽에서 왼쪽 */
+  flex-direction: column-reverse; /* 아래에서 위 */
+}

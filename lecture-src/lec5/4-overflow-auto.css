@@ -1,0 +1,5 @@
+/* row 요소 내부에 들어가는 모든 float 된 요소에 대해
+자동으로 clearfix 처리 해줌 */
+.row {
+  overflow: auto;
+}

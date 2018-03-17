@@ -1,0 +1,13 @@
+.container {
+  /* 기본 */
+  align-items: normal;
+  align-items: stretch;
+
+  /* 위치 정렬 */
+  align-items: center; /* 아이템을 중간에 */
+  align-items: flex-start; /* cross 축 처음에 정렬 */
+  align-items: flex-end; /* cross 축 마지막에 정렬 */
+
+  /* Baseline alignment */
+  align-items: baseline;
+}

@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 500px;
+  margin: 0 auto;
+}
+
+p {
+  background: #eaeaea;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.positioned {
+  background: #333;
+  color: rgba(255, 255, 255, .95);
+}

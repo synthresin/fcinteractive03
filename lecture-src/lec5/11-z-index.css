@@ -1,0 +1,5 @@
+/* static인(기본동작인)요소에는 z-index 를 적용하기 위해
+position: relative 만 걸어두는 경우가 빈번하다. */
+.header {
+  z-index: 400 /* 순수하게 숫자만 사용함에 주의 */
+}

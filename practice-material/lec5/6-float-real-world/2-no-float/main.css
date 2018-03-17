@@ -1,0 +1,76 @@
+.file-section,
+.user-section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.file-list,
+.user-list {
+  margin-bottom: 8px;
+}
+
+.file-list-item {
+  padding: 14px 16px;
+}
+
+.file-list-item h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.file-list-item p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-list-item {
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.user-list-item__thumbnail {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.note-section > p {
+  font-size: 14px;
+  line-height: 24px;
+
+  margin: 16px;
+  margin-top: 0;
+
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.fab {
+  width: 56px;
+  height: 56px;
+  background: #ff3f6f;
+  border: 0;
+  border-radius: 1000px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+
+  /* added */
+  display: block;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+}
