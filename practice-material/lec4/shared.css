@@ -1,0 +1,33 @@
+body {
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-bar {
+  box-sizing: border-box;
+  height: 56px;
+  background-color: #009688;
+  color: white;
+  font-size: 20px;
+  padding-left: 16px;
+  padding-top: 14px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.contents {
+  padding-top: 62px;
+}
+
+.section-header {
+  box-sizing: border-box;
+  height: 48px;
+  font-size: 14px;
+  color: #009789;
+  padding-left: 16px;
+  padding-top: 14px;
+}

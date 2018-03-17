@@ -1,41 +1,10 @@
-body {
-  font-family: "Roboto", sans-serif;
-  line-height: normal;
-  background-color: #fafafa;
-  color: rgba(0, 0, 0, 0.87);;
-}
-
-.app-bar {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  padding: 14px 16px;
-  background-color: #009688;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
-  color: white;
-  height: 56px;
-  box-sizing: border-box;;
-}
-
-.app-bar .title {
-  font-size: 20px;
-  line-height: 28px;
-}
-
 .contents {
-  padding-top: 62px;
   padding-bottom: 24px;
 }
 
 .required-section {
   padding-bottom: 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
-}
-
-.section-header {
-  padding: 14px 16px 15px;
-  font-size: 14px;
-  font-weight: 400;
-  color: #009789;
 }
 
 .input-field {
@@ -145,15 +114,13 @@ body {
   margin-right: 16px;
   vertical-align: middle;
 }
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
     /* display: none; <- Crashes Chrome on hover */
     -webkit-appearance: none;
     margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
 }
-
-
-
 
 .submit-section {
   text-align: right;
