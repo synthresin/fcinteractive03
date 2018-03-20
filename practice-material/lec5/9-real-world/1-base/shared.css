@@ -1,0 +1,77 @@
+body {
+  line-height: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.icon-button {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  background: none;
+}
+
+.app-bar {
+  box-sizing: border-box;
+  height: 56px;
+  background-color: #009688;
+  color: white;
+  font-size: 20px;
+  padding: 14px 16px;
+  padding-right: 10px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.app-bar .app-bar__left {
+  float: left;
+  overflow: auto;
+}
+
+.app-bar .app-bar__left .menu-button {
+  float: left;
+  margin-top: 2px;
+  margin-right: 16px;
+}
+
+.app-bar .app-bar__left h1 {
+  float: left;
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.app-bar__right {
+  float: right;
+  margin-top: 2px;
+  overflow: auto;
+}
+
+.app-bar__right .icon-button {
+  float: left;
+  margin-left: 16px;
+}
+
+.app-bar__right .icon-button:first-child {
+  margin-left: 0;
+}
+
+.contents {
+  padding-top: 62px;
+}
+
+.section-header {
+  box-sizing: border-box;
+  height: 48px;
+  font-size: 14px;
+  color: #009789;
+  padding-left: 16px;
+  padding-top: 14px;
+}
