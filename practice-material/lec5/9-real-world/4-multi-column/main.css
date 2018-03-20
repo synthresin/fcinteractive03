@@ -1,0 +1,122 @@
+.file-section,
+.user-section {
+
+}
+
+.file-list,
+.user-list {
+  overflow: auto;
+}
+
+.file-list-item {
+  box-sizing: border-box;
+  float: left;
+
+  margin: 0 12px;
+  margin-bottom: 8px;
+
+  padding: 14px 16px;
+  padding-right: 10px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  width: 284px;
+
+  background-color: white;
+  overflow: auto;
+}
+
+.file-list-item .file-list-item__info {
+  float: left;
+}
+
+.file-list-item .icon-button {
+  float: right;
+  margin-top: 8px;
+}
+
+.file-list-item h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.file-list-item p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-list-item {
+  box-sizing: border-box;
+
+  float: left;
+  margin: 0 12px;
+  margin-bottom: 8px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+  width: 284px;
+  background-color: white;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: auto;
+}
+
+.user-list-item .user-list-item__thumbnail {
+  width: 100%;
+  padding-top: 100%;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.user-list-item .user-list-item__info {
+  height: 56px;
+  overflow: auto;
+}
+
+.user-list-item .user-list-item__name {
+  float: left;
+  margin-left: 16px;
+  margin-top: 17px;
+}
+
+.user-list-item .icon-button {
+  float: right;
+  margin-top: 16px;
+  margin-right: 10px;
+}
+
+.note-section > p {
+
+  font-size: 14px;
+  line-height: 24px;
+
+  margin: 0 12px;
+  padding: 16px 24px;
+  border: solid 1px rgba(0, 0, 0, 0.12);
+
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+}
+
+.fab {
+  width: 56px;
+  height: 56px;
+  background: #ff3f6f;
+  border: 0;
+  border-radius: 1000px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+
+  /* added */
+  display: block;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+}
