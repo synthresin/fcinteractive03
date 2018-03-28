@@ -1,0 +1,8 @@
+/* 디바이스 너비가 599 이하 */
+@media screen and (max-device-height: 599px) { /* ... */ }
+
+/* 디바이스 너비가 600 이상 959 이하  */
+@media screen and (min-device-height: 600px) and (max-device-height: 959px) { /* ... */ }
+
+/* 디바이스 너비가 960 이상  */
+@media screen and (min-device-height: 960px) { /* ... */ }

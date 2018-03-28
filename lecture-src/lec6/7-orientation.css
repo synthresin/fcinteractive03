@@ -1,0 +1,5 @@
+/* 가로 화면일때 */
+@media (orientation: landscape) { /* ... */ }
+
+/* 세로 화면 일때 */
+@media (orientation: portrait) { /* ... */ }

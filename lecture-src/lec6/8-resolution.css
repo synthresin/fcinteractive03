@@ -1,0 +1,8 @@
+/* 2배수 디스플레이 (안드 hdpi이상) 이상일때 */
+@media screen and (min-resolution: 2dppx) { /* ... */ }
+
+/* 3배수 디스플레이 (안드 xhdpi이상) 이상일때 */
+@media screen and (min-resolution: 3dppx) { /* ... */ }
+
+/* 프린트 매체의 dpi 명시 */
+@media print and (min-resolution: 300dpi) { /* ... */ }

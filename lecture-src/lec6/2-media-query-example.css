@@ -1,0 +1,8 @@
+/* viewport 가 700 이상일 때만 적용 */
+@media (min-width: 700px) { /* ... */ }
+
+/* viewport 가 700 이상이면서 화면이 가로 방향일때 적용 */
+@media (min-width: 700px) and (orientation: landscape) { /* ... */ }
+
+/* TV 이면서 viewport 가 700 이상이면서 화면이 가로 방향일때 적용 */
+@media tv and (min-width: 700px) and (orientation: landscape) { /* ... */ }

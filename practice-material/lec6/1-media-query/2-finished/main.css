@@ -1,0 +1,297 @@
+.jumbotron {
+  display: none;
+}
+
+.file-section,
+.user-section {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.file-list,
+.user-list {
+  margin-bottom: 8px;
+}
+
+.file-list-item {
+  padding: 14px 16px;
+  padding-right: 10px;
+  overflow: auto;
+}
+
+.file-list-item .file-list-item__info {
+  float: left;
+}
+
+.file-list-item .icon-button {
+  float: right;
+  margin-top: 8px;
+}
+
+.file-list-item h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.file-list-item p {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.user-list-item {
+  padding: 8px 16px;
+  padding-right: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  overflow: auto;
+}
+
+.user-list-item .user-list-item__thumbnail {
+  float: left;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  background-color: #eee;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.user-list-item .user-list-item__name {
+  float: left;
+  margin-left: 16px;
+  margin-top: 8px;
+}
+
+.user-list-item .icon-button {
+  float: right;
+  margin-top: 8px;
+}
+
+.note-section > p {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+
+  margin: 16px;
+  margin-top: 0;
+
+
+}
+
+.fab {
+  width: 56px;
+  height: 56px;
+  background: #ff3f6f;
+  border: 0;
+  border-radius: 1000px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+
+  /* added */
+  display: block;
+  box-sizing: border-box;
+  padding-top: 16px;
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1030px) {
+  .jumbotron {
+    display: block;
+    position: relative;
+    height: 284px;
+    background-size: cover;
+  }
+
+  .jumbotron::before {
+    content: '';
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .64);
+  }
+
+  .jumbotron .container {
+    position: relative;
+    height: 100%;
+  }
+
+  .jumbotron .jumbotron__copy {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 50%;
+
+    text-align: center;
+    transform: translate3d(0, -50%, 0);
+  }
+
+  .jumbotron .jumbotron__subtitle {
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .jumbotron .jumbotron__title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  .jumbotron .jumbotron__show-more {
+    box-sizing: border-box;
+    display: inline-block;
+    margin-top: 13px;
+    border-radius: 2px;
+    border: solid 1px #009688;
+    padding: 8px 12px;
+    height: 36px;
+
+    color: #009688;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-decoration: none;
+  }
+
+  .jumbotron__stat {
+    position: absolute;
+    left: 12px;
+    bottom: 16px;
+
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .jumbotron__stat .views-number,
+  .jumbotron__stat .likes-number {
+    font-weight: bold;
+  }
+
+  .jumbotron__feat-user {
+    position: absolute;
+    right: 12px;
+    bottom: 16px;
+
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    font-weight: 500;
+    overflow: auto;
+  }
+
+  .jumbotron__feat-user__thumbnail {
+    float: right;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+
+    background-size: cover;
+  }
+
+  .jumbotron__feat-user__name {
+    float: right;
+
+    margin-top: 11px;
+    margin-right: 8px;
+  }
+
+  .file-section,
+  .user-section {
+    border: none;
+  }
+
+  .file-list,
+  .user-list {
+    overflow: auto;
+    margin: 0;
+  }
+
+  .file-list-item {
+    box-sizing: border-box;
+    float: left;
+
+    margin: 0 12px;
+    margin-bottom: 8px;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    width: 284px;
+
+    background-color: white;
+  }
+
+  .user-list-item {
+    box-sizing: border-box;
+
+    float: left;
+    margin: 0 12px;
+    margin-bottom: 8px;
+    padding: 0;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    width: 284px;
+    background-color: white;
+  }
+
+  .user-list-item .user-list-item__thumbnail {
+    float: none;
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    padding-top: 100%;
+  }
+
+  .user-list-item .user-list-item__info {
+    height: 56px;
+    overflow: auto;
+  }
+
+  .user-list-item .user-list-item__name {
+    margin-top: 17px;
+  }
+
+  .user-list-item .icon-button {
+    margin-top: 16px;
+    margin-right: 10px;
+  }
+
+  .note-section > p {
+    margin: 0 12px;
+    padding: 16px 24px;
+    border: solid 1px rgba(0, 0, 0, 0.12);
+    background-color: white;
+  }
+} /* media query end 실제 코드의 끝*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

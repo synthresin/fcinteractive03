@@ -1,0 +1,8 @@
+/* viewport 너비가 599 이하 */
+@media screen and (max-width: 599px) { /* ... */ }
+
+/* viewport 너비가 600 이상 959 이하  */
+@media screen and (min-width: 600px) and (max-width: 959px) { /* ... */ }
+
+/* viewport 너비가 960 이상  */
+@media screen and (min-width: 960px) { /* ... */ }
