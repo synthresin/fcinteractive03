@@ -1,7 +1,16 @@
+html, body {
+  height: 100%;
+}
+
 body {
   line-height: normal;
   font-family: 'Roboto', sans-serif;
-  background-color: #333;
+  background-color: #eee;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -132px;
 }
 
 .icon-button {
@@ -24,6 +33,7 @@ body {
   left: 0;
   top: 0;
   right: 0;
+  z-index: 1000;
 
   overflow: auto;
 }
@@ -93,8 +103,7 @@ body {
 
 .contents {
   padding-top: 62px;
-  padding-bottom: 48px;
-  background-color: #eee;
+  padding-bottom: 180px;
 }
 
 .container {
@@ -112,6 +121,7 @@ body {
 }
 
 .footer {
+  background-color: #333;
   box-sizing: border-box;
   padding-top: 56px;
   height: 132px;
