@@ -1,0 +1,34 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn {
+  background: white;
+  padding: 8px 16px;
+  height: 39px;
+  border: 1px solid #e7e7e7;
+  border-radius: 4px;
+
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.btn-primary {
+  background-color: #FF3F6F;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: #65D8BA;
+  color: white;
+}
+
+.btn-disabled {
+  background-color: #D7D7D7;
+  color: #B3B3B3;
+}
+
+.btn-large {
+  height: 56px;
+  padding: 17px 16px 16px;
+}

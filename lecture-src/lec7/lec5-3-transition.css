@@ -1,0 +1,8 @@
+.clicked {
+  /* 합쳐 쓰기 */
+  transition: width 1s, height 2s, background-color 3s, transform 4s;
+
+  /* 나눠 쓰기 */
+  transition-property: width, height, background-color, transform;
+  transition-duration: 1s, 2s, 3s, 4s;
+}

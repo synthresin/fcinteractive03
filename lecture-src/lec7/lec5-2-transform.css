@@ -1,0 +1,24 @@
+.clicked {
+  /* 확대/축소 */
+  transform: scale(2);
+  transform: scaleX(2)
+  transform: scaleY(3)
+
+  /* 회전 */
+  transform: rotate(45deg);
+
+  /* 위치 이동 */
+  transform: translate(40px, 50%)
+  transform: translateX(2em)
+  transform: translateY(3in)
+  transform: translate3d(12px, 50%, 0)
+
+  /* 비틀기 */
+  transform: skewX(15deg);
+  transform: skewY(15deg);
+
+  /* 복합 변형 */
+  transform: rotate(45deg) scale(2);
+  transform: translate(100px, 0) rotate(45deg);
+  transform: rotate(45deg) translate(100px, 0);
+}

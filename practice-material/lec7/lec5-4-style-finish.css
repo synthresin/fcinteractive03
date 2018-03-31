@@ -1,0 +1,117 @@
+body {
+  margin: 0; padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-bar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  padding: 14px 16px;
+  background-color: #009688;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.24), 0 0 4px 0 rgba(0, 0, 0, 0.12);
+}
+
+.app-bar h1 {
+  margin: 0;
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.contents {
+  margin-top: 62px;
+}
+
+h2 {
+  margin: 0;
+  padding: 14px 16px 15px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #009789;
+}
+
+.file-section {
+  padding-bottom: 8px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+.file-list {
+  margin: 0;
+  padding: 0;
+}
+
+.file-list-item {
+  margin: 0;
+  padding: 16px 14px;
+  list-style-type: none;
+}
+
+.file-list-item h3 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.file-list-item .file-list-item__subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.54);
+  font-weight: 400;
+}
+
+.user-section {
+  padding-bottom: 8px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.12);
+}
+
+.user-list {
+  margin: 0;
+  padding: 0;
+}
+
+.user-list-item {
+  padding: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.87);
+  font-weight: 400;
+}
+
+.note-section {
+
+}
+
+.note-section p {
+  margin-top: 0;
+  padding: 0 16px;
+
+	font-size: 14px;
+	line-height: 24px;
+	color: rgba(0, 0, 0, 0.87);
+}
+
+.fab {
+  position: fixed;
+  bottom: 16px;
+  right: 16px;
+  box-shadow: 0 12px 12px 0 rgba(0, 0, 0, 0.24), 0 0 12px 0 rgba(0, 0, 0, 0.12), 0 6px 6px 0 rgba(0, 0, 0, 0.24), 0 0 6px 0 rgba(0, 0, 0, 0.12);
+  background-color: #ff3f6f;
+  border: 0;
+  border-radius: 100%;
+  width: 56px; height: 56px;
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+
+  transition: transform 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.fab:hover img {
+  transform: rotate(45deg);
+}

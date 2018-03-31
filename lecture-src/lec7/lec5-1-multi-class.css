@@ -1,0 +1,11 @@
+/* 기본 상태 */
+.fab {
+  width: 56px; height: 56px;
+  background-color: #ff3f6f;
+  border-radius: 100%;
+}
+
+/* 45도 돌아간 상태 */
+.fab.clicked {
+  transform: rotate(45deg);
+}

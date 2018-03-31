@@ -1,0 +1,54 @@
+.fab {
+  position: fixed;
+  bottom: 50%;
+  left: 20%;
+
+  width: 56px; height: 56px;
+  border: 0;
+  border-radius: 100%;
+  background-color: #ff3f6f;
+}
+
+.fab img {
+  display: block;
+  margin: 0 auto;
+}
+
+.fab.transformed {
+  left: auto;
+  right: 20%;
+}
+
+.fab:hover {
+  /* 주석 넣고 풀기는 ( cmd + / ) */
+
+  /*transform: scale(2);*/
+  /*transform: scaleX(2)*/
+  /*transform: scaleY(3)*/
+
+  /*transform: rotate(45deg);
+  background-color: #009688;*/
+
+  /*transform: skewX(15deg);*/
+  /*transform: skewY(15deg);*/
+
+  /*transform: translate(40px, 50%)*/
+  /*transform: translateX(2em) */
+  /*transform: translateY(3in)*/
+  /* transform: translate3d(12px, 50%, 0) */
+
+  /*transform: rotate(45deg) scale(2); */
+  /*transform: translate(100px, 0) rotate(45deg);*/
+  /*transform: rotate(45deg) translate(100px, 0);*/
+
+  /* transform: matrix(1.0, 2.0, 3.0, 4.0, 5.0, 6.0);
+  /* transform: matrix3d(1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0, 13.0, 14.0, 15.0, 16.0)*/
+}
+
+.fab {
+  /*transition: transform 100ms, background-color 2000ms;*/
+  /*transition-property: transform, background-color;
+  transition-duration: 100ms, 2000ms;*/
+  /*transition-delay: 100ms, 200ms;*/
+  /*transition-timing-function: ease-in-out;*/
+}

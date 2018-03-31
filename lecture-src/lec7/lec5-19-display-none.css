@@ -1,0 +1,5 @@
+/* fab-action-button 과 hidden 클래스를 가진 요소를 아예 그리지 않게 하기
+  복습) display 는 block, inline 강제 지정에도 사용됨 */
+.fab-action-button.hidden {
+  display: none;
+}

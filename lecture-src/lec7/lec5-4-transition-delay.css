@@ -1,0 +1,7 @@
+.clicked {
+  /* 통일된 딜레이 값 */
+  transition-delay: 3s;
+
+  /* transition-property 별 각각의 딜레이*/
+  transition-delay: 2s, 4ms;
+}

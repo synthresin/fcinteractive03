@@ -1,0 +1,5 @@
+/* fab-action-button 과 hidden 클래스를 가진 요소를
+  보이지 않게, 선택도 못하게 하기 */
+.fab-action-button.hidden {
+  visibility: hidden;
+}
