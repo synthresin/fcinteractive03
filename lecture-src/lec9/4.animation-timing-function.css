@@ -1,0 +1,7 @@
+.sample {
+  /*키워드*/
+  animation-timing-function: ease;
+
+  /*함수값*/
+  animation-timing-function: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+}

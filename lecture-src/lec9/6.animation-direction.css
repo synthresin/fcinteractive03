@@ -1,0 +1,13 @@
+.sample {
+  /* 단방향 반복 */
+  animation-direction: normal;
+
+  /* 역방향 반복 */
+  animation-direction: reverse;
+
+  /* 회마다 방향 변경 (정방향 시작) */
+  animation-direction: alternate;
+
+  /* 회마다 방향 변경 (역방향 시작) */
+  animation-direction: alternate-reverse;
+}

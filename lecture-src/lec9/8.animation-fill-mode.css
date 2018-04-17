@@ -1,0 +1,10 @@
+.sample {
+  /* 애니메이션이 시행중이 아닐때는 애니메이션의 스타일을 적용받지 않음 */
+  animation-fill-mode: none;
+  /* 애니메이션이 끝나도, 마지막 애니메이션 상태를 유지함 */
+  animation-fill-mode: forwards;
+  /* 애니메이션이 적용받고, 실제 시작되기 까지 (딜레이 시간) 첫 애니메이션 상태를 유지 */
+  animation-fill-mode: backwards;
+  /* forwards, backwards 둘다 적용 */
+  animation-fill-mode: both;
+}

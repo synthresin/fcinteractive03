@@ -1,0 +1,6 @@
+.sample {
+  /* 진행 */
+  animation-play-state: running;
+  /* 중단 */
+  animation-play-state: paused;
+}

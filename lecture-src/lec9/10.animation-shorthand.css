@@ -1,0 +1,6 @@
+.sample {
+  /* 첫번째 시간은 duration,
+     두번째 시간은 delay 로 해석됨,
+     나머지는 옵션값으로 구분됨 */
+  animation: 3s ease-in 1s 2 reverse both paused slidein;
+}

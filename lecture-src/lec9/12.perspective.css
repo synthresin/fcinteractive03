@@ -1,0 +1,4 @@
+.sample {
+  /* z=0 위치와, 유저와의 거리가 120 */
+  transform: perspective(120px)
+}
